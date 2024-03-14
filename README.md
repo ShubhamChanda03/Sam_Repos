@@ -29,7 +29,7 @@ If the installation was successful, you should be able to run the following comm
     v18.10.0
 
     $ npm --version
-    6.1.0
+    v8.19.2
 
 If you need to update `npm`, you can make it using `npm`! After running the following command, just open again the command line check.
 
@@ -51,11 +51,19 @@ If you need to update `npm`, you can make it using `npm`! After running the foll
 
 ## Configure app
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
-[Environmemnt] [Data seed] [cron seed] [8000] [3000]
+- Create `azure_calculator/.env` file then edit it with the settings given on mail.
+
+    
 - A setting;
 - Another setting;
 - One more setting;
+
+## Seeding Data 
+
+    $ node seed.js
+
+## Cron job runner
+
 
 ## Running the project
 
