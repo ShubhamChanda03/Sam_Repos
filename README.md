@@ -1,6 +1,6 @@
-# Project Title
+# Azure Calculator
 
-[Need to add description]
+The Echopath Calculator is a web application tool that allows the users to estimate the cost of using various Microsoft Azure services. It enables estimators to plan the Azure usage of their prospect / customers, by providing pricing details based on factors such as service type, region, usage volume, and specific configurations. The estimator can input their prospect's / customer's requirements and preferences into the calculator to receive an estimate of the associated costs, helping them make informed decisions about resource allocation and budgeting for their prospect's / customer's Azure projects.
 
 ---
 ## Requirements
