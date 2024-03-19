@@ -43,6 +43,50 @@ If you need to update `npm`, you can make it using `npm`! After running the foll
 
 ---
 
+### MongoDB Installation Guide
+
+## Step 1: Download MongoDB
+- Go to the official MongoDB website here and download the appropriate version for your operating system.
+## Step 2: Install MongoDB
+
+## For Windows:
+
+- Run the downloaded installer file (.msi).
+- Follow the installation wizard instructions.
+- Make sure to select the option to install MongoDB Compass, a graphical user interface for MongoDB.
+  
+## For macOS:
+
+- Open the downloaded .tgz file.
+- Drag the MongoDB application to your Applications folder.
+- You may need to update your PATH environment variable to include the MongoDB binaries. You can do this by adding the following line to your shell profile (e.g., ~/.bash_profile, ~/.bashrc, ~/.zshrc):
+    $ export PATH="/usr/local/mongodb/bin:$PATH"
+## For Linux:
+
+- Extract the downloaded .tgz file to a location on your machine.
+- Open terminal and paste
+$ tar -zxvf mongodb-<version>.tgz
+- Move the extracted directory to a desired location.
+$ mv mongodb-<version> /usr/local/mongodb
+- Add the MongoDB binaries to your PATH environment variable. You can do this by adding the following line to your shell profile (e.g., ~/.bash_profile, ~/.bashrc, ~/.zshrc):
+export PATH="/usr/local/mongodb/bin:$PATH"
+## Step 3: Start MongoDB
+- Open a terminal or command prompt.
+- Run the following command to start the MongoDB server:
+$ mongod
+- If you want MongoDB to store data in a specific directory, specify the data directory using the --dbpath option:
+$ mongod --dbpath /path/to/data/directory
+## Step 4: Verify Installation
+- Open another terminal or command prompt.
+- Run the MongoDB shell by typing:
+$ mongo
+- You should see the MongoDB shell prompt, indicating that you've successfully installed MongoDB.
+## Additional Resources
+- MongoDB Documentation: https://docs.mongodb.com/
+- MongoDB Compass: https://www.mongodb.com/products/compass
+
+---
+
 ## Install
 
     $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
